@@ -1,21 +1,21 @@
-YX Mailer
-=========
+YX : PHP : YX Mailer
+====================
 
-YX Mailer is a very light PHP mail sending class, with support for attachments.
+> YX Mailer is a very light PHP mail sending class, with support for attachments.
 
-It works in a similar way as PHPMailer, but doesn't have the SSL and SMTP 
-authentication server (hence "being light").
+It works in a similar way as PHPMailer, but doesn't have the SSL and SMTP authentication server (hence "being light").
 
 The method also has a mime-type checker, with fallbacks to older versions of PHP.
 
-I built it because of lots of client-related reasons, so it might not be useful 
-to everyone. Please test before using it!
+I built it because of lots of client-related reasons, so it might not be useful to everyone. Please test before using it!
 
 Nevertheless, it was really great to learn a few things! :)
 
------
+## Dependencies
 
-#### How to Use
+- `PHP` _v5.3.x_;
+
+## Using
 
 This is a very simple example of the class. Its usage is mostly similar to PHPMailer:
 
@@ -95,16 +95,20 @@ if ( false === $send ) {
 }
 ```
 
+## Authors
+
+- **Fabio Y. Goto** ([lab@yuiti.com.br][mailto01])
+
+## License
+
+This project is licensed under the open source `MIT License`. Please check the `LICENSE.md` file for more details.
+
 -----
 
-#### License
+_© 2016-2017 Fabio Y. Goto_
 
-This projects is licensed under the open source `MIT License`.
+[\\]: ======================================================================
 
-&copy; 2016-2017 Fabio Y. Goto
+[mailto01]: mailto:lab@yuiti.com.br
 
------
-
-#### Author
-
-**Fabio Y. Goto** (_[lab@yuiti.com.br](mailto:lab@yuiti.com.br)_)
+[\\]: ======================================================================
